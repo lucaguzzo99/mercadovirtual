@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Ilustración de Laura, vendedora verificada, sonriendo">
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d9488"/>
+      <stop offset=".55" stop-color="#0e7490"/>
+      <stop offset="1" stop-color="#0a1f24"/>
+    </linearGradient>
+    <linearGradient id="sol" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="blusa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9efec"/>
+    </linearGradient>
+    <linearGradient id="pelo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4a2c1d"/>
+      <stop offset="1" stop-color="#2a150d"/>
+    </linearGradient>
+    <clipPath id="recorte"><rect width="400" height="400"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#recorte)">
+    <rect width="400" height="400" fill="url(#fondo)"/>
+
+    <!-- formas de fondo -->
+    <circle cx="308" cy="104" r="62" fill="url(#sol)" opacity=".95"/>
+    <circle cx="70" cy="330" r="120" fill="#14b8a6" opacity=".28"/>
+    <circle cx="350" cy="320" r="70" fill="#99f6e4" opacity=".16"/>
+    <g fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="2">
+      <circle cx="308" cy="104" r="86"/>
+      <circle cx="308" cy="104" r="112"/>
+    </g>
+    <g fill="#fff" opacity=".35">
+      <circle cx="60" cy="90" r="4"/><circle cx="96" cy="60" r="2.5"/><circle cx="34" cy="150" r="2.5"/>
+      <circle cx="372" cy="214" r="3"/><circle cx="340" cy="250" r="2"/>
+    </g>
+
+    <!-- pelo (parte trasera) -->
+    <path d="M118 190c-14 52-10 104 18 140h128c28-36 32-88 18-140-4-60-40-96-82-96s-78 36-82 96z" fill="url(#pelo)"/>
+
+    <!-- torso -->
+    <path d="M52 400c4-62 44-92 100-102l48 22 48-22c56 10 96 40 100 102z" fill="url(#blusa)"/>
+    <path d="M152 298l48 22 48-22c-6 22-26 40-48 40s-42-18-48-40z" fill="#0d9488"/>
+    <path d="M200 320l-34 80h68z" fill="#0d9488" opacity=".12"/>
+
+    <!-- cuello -->
+    <path d="M172 262h56v44c0 14-12 26-28 26s-28-12-28-26z" fill="#e0a37e"/>
+    <path d="M172 286c10 10 18 14 28 14s18-4 28-14v-14c-10 10-18 14-28 14s-18-4-28-14z" fill="#c98660" opacity=".55"/>
+
+    <!-- colgante -->
+    <path d="M178 316q22 30 44 0" fill="none" stroke="#e9b44c" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="200" cy="339" r="7" fill="#e9b44c"/>
+    <circle cx="200" cy="339" r="3" fill="#d97706"/>
+
+    <!-- orejas y aros -->
+    <ellipse cx="146" cy="206" rx="10" ry="15" fill="#e0a37e"/>
+    <ellipse cx="254" cy="206" rx="10" ry="15" fill="#e0a37e"/>
+    <circle cx="144" cy="228" r="7" fill="#e9b44c"/>
+    <circle cx="256" cy="228" r="7" fill="#e9b44c"/>
+
+    <!-- cara -->
+    <ellipse cx="200" cy="200" rx="58" ry="72" fill="#f0b891"/>
+    <ellipse cx="200" cy="246" rx="40" ry="22" fill="#e0a37e" opacity=".35"/>
+
+    <!-- flequillo -->
+    <path d="M138 188c2-52 30-82 66-82 38 0 62 30 60 82-14-10-28-28-34-46-16 20-52 38-92 46z" fill="url(#pelo)"/>
+    <path d="M160 128c14-14 34-22 56-20" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- cejas -->
+    <path d="M165 188q12-8 26-2" fill="none" stroke="#3a2015" stroke-width="4" stroke-linecap="round"/>
+    <path d="M209 186q14-6 26 2" fill="none" stroke="#3a2015" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- ojos -->
+    <g>
+      <ellipse cx="178" cy="206" rx="9" ry="10" fill="#fff"/>
+      <ellipse cx="222" cy="206" rx="9" ry="10" fill="#fff"/>
+      <circle cx="179" cy="207" r="6" fill="#3a2015"/>
+      <circle cx="223" cy="207" r="6" fill="#3a2015"/>
+      <circle cx="181" cy="204.5" r="2" fill="#fff"/>
+      <circle cx="225" cy="204.5" r="2" fill="#fff"/>
+      <path d="M168 199q10-7 20 0M212 199q10-7 20 0" fill="none" stroke="#2a150d" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- mejillas y nariz -->
+    <circle cx="162" cy="228" r="9" fill="#f08a7a" opacity=".35"/>
+    <circle cx="238" cy="228" r="9" fill="#f08a7a" opacity=".35"/>
+    <path d="M200 212q-6 14-2 20 4 3 9 0" fill="none" stroke="#c98660" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- sonrisa -->
+    <path d="M176 246q24 26 48 0z" fill="#8f2d3a"/>
+    <path d="M180 247h40q-20 9-40 0z" fill="#fff"/>
+    <path d="M176 246q24 26 48 0" fill="none" stroke="#7a2230" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- insignia de verificada -->
+    <g transform="translate(318 316)">
+      <circle r="30" fill="#fff"/>
+      <circle r="24" fill="#10b981"/>
+      <path d="M-11 0l8 9 15-18" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
